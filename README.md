@@ -8,7 +8,7 @@ This repository contains the implementation of a big data analytics pipeline for
 - `mapper.py`: Python script for MapReduce mapper
 - `reducer.py`: Python script for MapReduce reducer
 - `traffic_volume_clean_full.csv`: Cleaned dataset used in the analysis
-- PySpark notebook or code for ML model (if applicable)
+- PySpark notebook or code for ML model 
 - Output screenshots and result files
 
 ## ML Models
