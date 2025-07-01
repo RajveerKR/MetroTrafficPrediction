@@ -2,8 +2,6 @@
 Big Data analytics project using Hadoop MapReduce and PySpark to classify and predict metro interstate traffic volume
 Big Data Traffic Analytics
 
-This repository contains the implementation of a big data analytics pipeline for predicting traffic volume using Hadoop and Spark.
-
 ## Contents
 - `mapper.py`: Python script for MapReduce mapper
 - `reducer.py`: Python script for MapReduce reducer
@@ -20,5 +18,20 @@ This repository contains the implementation of a big data analytics pipeline for
 - Apache Spark (MLlib)
 - Python (PySpark)
 
+- ## How to Run
+- Ensure Hadoop and Spark are set up in Docker
+- Place `traffic_volume_clean_full.csv` in HDFS
+- Run `mapper.py` and `reducer.py` using Hadoop Streaming
+- Use PySpark for ML pipeline (classification and prediction)
+
+
 ## Screenshots
 See `/screenshots` folder for MapReduce output, Spark metrics, and model evaluations.
+## Dataset Source
+
+Hogue, J. (2019). *Metro Interstate Traffic Volume* [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5X60B
+
+
+## Author
+**Rajveer Kaur**  
+[GitHub Profile](https://github.com/RajveerKR)
